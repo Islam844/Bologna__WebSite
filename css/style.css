@@ -16,9 +16,9 @@
 }
 
 .header-log{
-    margin-top: 60px;
+    margin-top: 3.75rem;
     text-align: center;
-    line-height: 34px;
+    line-height: 2.125rem;
 }
 .header-log__title
 {
@@ -40,9 +40,9 @@
 {
     display: flex;
     justify-content: space-between;
-    margin: 0 70px;
-    margin-top: 50px;
-    margin-bottom: 35px;
+    margin: 0 4.375rem;
+    margin-top: 3.125rem;
+    margin-bottom: 2.1875rem;
 }
 .social-list{
     display: flex;
@@ -50,7 +50,7 @@
     list-style: none;
 }
 .social-item{
-    margin-right: 7.5px;
+    margin-right: 0.46875rem;
     color: var(--color-main-black);
 }
 .social-item__link{
@@ -64,7 +64,7 @@
 }
 
 .nav-item__text{
-    margin: 0 17.5px;
+    margin: 0 1.09375rem;
     color: var(--color-main-black);
     text-transform: uppercase;
     font-family: 'Quattrocento Sans', sans-serif;
@@ -76,7 +76,7 @@
     display: flex;
 }
 .nav-search__vertical-bar{
-    margin-right: 15px;
+    margin-right: 0.9375rem;
     margin-top: -5px;
     font-size: 1.3rem;
 }
@@ -86,7 +86,7 @@
 }
 /************header-intro**********/
 .header-intro{
-    height: 690px;
+    height: 43.125rem;
     background-image: url(../img/header-background.png);
     background-repeat: no-repeat;
     background-size: cover;
@@ -112,8 +112,8 @@
 }
 .intro__text
 {
-    width: 820px;
-    font-size: 50px;
+    width: 51.25rem;
+    font-size: 3.125rem;
     font-family: 'Rufina', serif;
     text-align: center;
     margin-top: 16px;
@@ -140,6 +140,7 @@
 /***********content**********************/
 .content{
     display: flex;
+    border-bottom: 1px dashed #d7d7d7;
 }
 .content-column{
     width: 25rem;
@@ -152,7 +153,9 @@
 .content-column__object{
     margin-bottom: 5.625rem;
 }
-
+.content-column__object:hover{
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
 .content-img{
     position: relative;
 }
@@ -209,6 +212,7 @@
     font-size: 0.8125rem;
     text-align: center;
     margin-top: 2.5rem;
+    padding-bottom: 0.625rem;
 }
 .content-object__date-month{
     color: var(--color-main-black);
@@ -376,12 +380,17 @@
     flex-wrap: wrap;
     line-height: 2rem;
 }
+/*слэш*/
 .sidebar-tags__item:nth-child(2n){
     color: #d0d0d0;
     font-size: 2.5rem;
 }
 .sidebar-tags__item:nth-child(2n-1){
     font-family: 'Quattrocento Sans', sans-serif;
+    font-size:1rem;
+}
+.sidebar-tags__tag{
+    
 }
 /**************footer*********************/
 .footer-insta__text{
