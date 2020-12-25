@@ -53,7 +53,10 @@
     margin-right: 7.5px;
     color: var(--color-main-black);
 }
-
+.social-item__link{
+    text-decoration: none;
+    color: var(--color-main-black);
+}
 .nav-list{
     list-style: none;
     display: flex;
@@ -76,6 +79,10 @@
     margin-right: 15px;
     margin-top: -5px;
     font-size: 1.3rem;
+}
+.nav-search__link{
+    text-decoration: none;
+    color: var(--color-main-black);
 }
 /************header-intro**********/
 .header-intro{
